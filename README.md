@@ -14,18 +14,31 @@ Clean Project Structure
 ---
 
 ## Project Structure
+
 cricketstats_project/
 │
+
+
 ├── setup.py
+
 ├── README.md
+
 │
+
 ├── cricketstats/
+
 │   ├── __init__.py
+
 │   ├── batting.py
+
 │   ├── bowling.py
+
 │   └── team.py
+
 │
+
 ├── demo_inside_project.py
+
 └── outside_demo.py
 
 ---
