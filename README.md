@@ -102,19 +102,30 @@ print("Team Score:", team_score([120, 80, 95]))
 ---
 
 ## Sample Output
+
 Batting Average: 41.66
+
 Strike Rate: 133.33
+
 Highest Score: 120
 
 Economy Rate: 4.5
+
 Bowling Average: 13.33
+
 Best Figures: (5, 20)
 
+
 Players: ['Virat Kohli', 'Rohit Sharma', 'MS Dhoni']
+
 Team Score: 295
-🛠 Technologies Used
+
+### Technologies Used
+
 Python 3
+
 setuptools
+
 pip
 
 ---
@@ -122,9 +133,15 @@ pip
 ## Concepts Covered
 
 Python Modules
+
 Python Packages
+
 __init__.py
+
 setup.py
+
 Package Installation
+
 Importing Packages
+
 Function-Based Programming
