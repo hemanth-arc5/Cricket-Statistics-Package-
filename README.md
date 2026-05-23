@@ -1,12 +1,19 @@
-Cricket Statistics Package
+# Cricket Statistics Package
 
-A simple Python installable package project created to understand:
+A beginner-friendly Python package for cricket statistics analysis.
+This project demonstrates how to create and use installable Python packages with modular structure and reusable functions.
+
+It covers:
 
 Python Modules
 Python Packages
-Creating Installable Packages
-Using Packages Outside the Project Directory
-Project Structure
+Installable Packages using setup.py
+Importing Packages Outside the Project Directory
+Clean Project Structure
+
+---
+
+## Project Structure
 cricketstats_project/
 │
 ├── setup.py
@@ -19,12 +26,15 @@ cricketstats_project/
 │   └── team.py
 │
 ├── demo_inside_project.py
-│
 └── outside_demo.py
-Features
-Batting Module (batting.py)
 
-Functions:
+---
+
+## Features
+
+### Batting Module (batting.py)
+
+Functions available:
 
 Calculate batting average
 Calculate strike rate
@@ -33,9 +43,10 @@ Functions
 batting_average(runs, innings)
 strike_rate(runs, balls)
 highest_score(scores)
-Bowling Module (bowling.py)
 
-Functions:
+### Bowling Module (bowling.py)
+
+Functions available:
 
 Calculate economy rate
 Calculate bowling average
@@ -44,27 +55,36 @@ Functions
 economy_rate(runs, overs)
 bowling_average(runs, wickets)
 best_figures(figures)
-Team Module (team.py)
 
-Functions:
+### Team Module (team.py)
+
+Functions available:
 
 Display player names
 Calculate total team score
 Functions
 show_players()
 team_score(scores)
-Installation
-Clone the Repository
+
+---
+
+## Installation
+
+1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/cricketstats_project.git
-Move into Project Folder
+
+2️⃣ Move into the Project Folder
+
 cd cricketstats_project
-Install the Package
+
+3️⃣ Install the Package
+
 pip install .
-Usage
 
-Create a Python file outside the project folder.
+💻 Usage Example
 
-Example:
+Create a Python file outside the project folder and use the package like this:
 
 from cricketstats import *
 
@@ -78,7 +98,10 @@ print("Best Figures:", best_figures([(3, 25), (5, 20)]))
 
 print("Players:", show_players())
 print("Team Score:", team_score([120, 80, 95]))
-Sample Output
+
+---
+
+## Sample Output
 Batting Average: 41.66
 Strike Rate: 133.33
 Highest Score: 120
@@ -89,11 +112,15 @@ Best Figures: (5, 20)
 
 Players: ['Virat Kohli', 'Rohit Sharma', 'MS Dhoni']
 Team Score: 295
-Technologies Used
+🛠 Technologies Used
 Python 3
 setuptools
 pip
-Concepts Covered
+
+---
+
+## Concepts Covered
+
 Python Modules
 Python Packages
 __init__.py
